@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const schoolRoutes = require('./routes/school.route');
+require('dotenv').config()
 
 const app = express();
 const port = 8080;
